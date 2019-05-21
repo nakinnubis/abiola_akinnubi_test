@@ -1,0 +1,11 @@
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\bin\Debug\netcoreapp2.2\QuestionBVersionChecker.deps.json
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\bin\Debug\netcoreapp2.2\QuestionBVersionChecker.runtimeconfig.json
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\bin\Debug\netcoreapp2.2\QuestionBVersionChecker.runtimeconfig.dev.json
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\bin\Debug\netcoreapp2.2\QuestionBVersionChecker.dll
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\bin\Debug\netcoreapp2.2\QuestionBVersionChecker.pdb
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\obj\Debug\netcoreapp2.2\QuestionBVersionChecker.csprojAssemblyReference.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\obj\Debug\netcoreapp2.2\QuestionBVersionChecker.csproj.CoreCompileInputs.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\obj\Debug\netcoreapp2.2\QuestionBVersionChecker.AssemblyInfoInputs.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\obj\Debug\netcoreapp2.2\QuestionBVersionChecker.AssemblyInfo.cs
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\obj\Debug\netcoreapp2.2\QuestionBVersionChecker.dll
+C:\Users\akinn\Desktop\abiola_akinnubi_test\QuestionBVersionChecker\obj\Debug\netcoreapp2.2\QuestionBVersionChecker.pdb
