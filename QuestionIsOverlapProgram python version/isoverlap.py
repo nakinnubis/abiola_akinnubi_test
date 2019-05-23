@@ -1,17 +1,19 @@
 import sys
-
-toint = lambda x:int(x)
+#this lambda converts string to float since python does not have decimal
+tofloat = lambda x:float(x)
+#this converts inputs to array but calls the tofloat method on each inputs
 def InputToArray(inpt):
     values = []
     listvalue = inpt.split(',')
     for inp in listvalue:
-        values.append(toint(inp))
+        values.append(tofloat(inp))
     if(len(values) > 1 and len(values) < 3):
         return values
     else:
         return None
 
-
+#lambda that takes two arguements one for x4 and x1 for comparing values
+#the other takes two arguments as well to compare x3 and x2 
 RightIsLessThanLeft = lambda x4,x1:x4 < x1
 RightIsGreaterThanLeft = lambda x3,x2:x3 > x2
 def main():

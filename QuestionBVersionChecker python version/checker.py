@@ -6,9 +6,9 @@ def main():
     versionCheck = versionChecker.check(version1,version2)
     ans = versionCheck 
     if ans < 0: 
-        print(version1 + " is older")
+        print("{} is older".format(version1))
     elif ans > 0: 
-        print(version2 + " is older")
+        print("{} is older".format(version2))
     else: 
         print("Version is up to date")
 

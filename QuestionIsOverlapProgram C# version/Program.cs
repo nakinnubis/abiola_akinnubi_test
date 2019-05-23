@@ -26,20 +26,20 @@ namespace QuestionIsOverlapProgram
             }
             
         }
-        static int[] InputToArray(string input)
+        static decimal[] InputToArray(string input)
         {
-            var a = input.Split(',').Select(c=>int.Parse(c)).ToArray();
+            var a = input.Split(',').Select(c=>decimal.Parse(c)).ToArray();
             if(a.Length > 1 && a.Length < 3)
             {
                 return a;
             }
             return null;
         }
-        static bool RightIsLessThanLeft(int x4,int x1)
+        static bool RightIsLessThanLeft(decimal x4,decimal x1)
         {
             return x4 < x1;
         }
-        static bool RightIsGreaterThanLeft(int x3, int x2)
+        static bool RightIsGreaterThanLeft(decimal x3, decimal x2)
         {
             return x3 > x2;
         }
