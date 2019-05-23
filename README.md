@@ -41,6 +41,9 @@ The goal of this question is to write a software library that accepts 2 version 
 =======================
 SOLUTION B DOCUMENTATION
 =======================
+1.
+2.
+
 
 Question C
 At Ormuco, we want to optimize every bits of software we write. Your goal is to write a new library that can be integrated to the Ormuco stack. Dealing with network issues everyday, latency is our biggest problem. Thus, your challenge is to write a new Geo Distributed LRU (Least Recently Used) cache with time expiration. This library will be used extensively by many of our services so it needs to meet the following criteria:  
@@ -53,5 +56,5 @@ At Ormuco, we want to optimize every bits of software we write. Your goal is to 
     7 - Cache can expire 
 As a hint, we are not looking for quantity, but rather quality, maintainability, scalability, testability and a code that you can be proud of. 
 =======================
-SOLUTION c DOCUMENTATION
+SOLUTION C DOCUMENTATION
 =======================
