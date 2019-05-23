@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker\\QuestionBVersionChecker.csproj": {}
+    "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker c# version\\QuestionBVersionChecker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker\\QuestionBVersionChecker.csproj": {
+    "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker c# version\\QuestionBVersionChecker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker\\QuestionBVersionChecker.csproj",
+        "projectUniqueName": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker c# version\\QuestionBVersionChecker.csproj",
         "projectName": "QuestionBVersionChecker",
-        "projectPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker\\QuestionBVersionChecker.csproj",
+        "projectPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker c# version\\QuestionBVersionChecker.csproj",
         "packagesPath": "C:\\Users\\akinn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker\\obj\\",
+        "outputPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker c# version\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -31,7 +31,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\VersionChecker\\VersionChecker.csproj": {
+                "projectPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\VersionChecker\\VersionChecker.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -47,6 +51,60 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\VersionChecker\\VersionChecker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\VersionChecker\\VersionChecker.csproj",
+        "projectName": "VersionChecker",
+        "projectPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\VersionChecker\\VersionChecker.csproj",
+        "packagesPath": "C:\\Users\\akinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\VersionChecker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\akinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
               "autoReferenced": true
             }
           },

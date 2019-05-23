@@ -1,0 +1,9 @@
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\obj\Debug\netstandard2.0\VersionChecker.csprojAssemblyReference.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\obj\Debug\netstandard2.0\VersionChecker.csproj.CoreCompileInputs.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\obj\Debug\netstandard2.0\VersionChecker.AssemblyInfoInputs.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\obj\Debug\netstandard2.0\VersionChecker.AssemblyInfo.cs
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\bin\Debug\netstandard2.0\VersionChecker.deps.json
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\bin\Debug\netstandard2.0\VersionChecker.dll
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\bin\Debug\netstandard2.0\VersionChecker.pdb
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\obj\Debug\netstandard2.0\VersionChecker.dll
+C:\Users\akinn\Desktop\abiola_akinnubi_test\VersionChecker\obj\Debug\netstandard2.0\VersionChecker.pdb

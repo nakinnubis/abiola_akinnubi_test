@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "QuestionBVersionChecker/1.0.0": {
+        "dependencies": {
+          "VersionChecker": "1.0.0"
+        },
         "runtime": {
           "QuestionBVersionChecker.dll": {}
+        }
+      },
+      "VersionChecker/1.0.0": {
+        "runtime": {
+          "VersionChecker.dll": {}
         }
       }
     }
   },
   "libraries": {
     "QuestionBVersionChecker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VersionChecker/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

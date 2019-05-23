@@ -1,0 +1,14 @@
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\bin\Debug\netcoreapp2.2\TestLrU.deps.json
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\bin\Debug\netcoreapp2.2\TestLrU.runtimeconfig.json
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\bin\Debug\netcoreapp2.2\TestLrU.runtimeconfig.dev.json
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\bin\Debug\netcoreapp2.2\TestLrU.dll
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\bin\Debug\netcoreapp2.2\TestLrU.pdb
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\bin\Debug\netcoreapp2.2\LeastRecentlyUsedCache.dll
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\bin\Debug\netcoreapp2.2\LeastRecentlyUsedCache.pdb
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\obj\Debug\netcoreapp2.2\TestLrU.csprojAssemblyReference.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\obj\Debug\netcoreapp2.2\TestLrU.csproj.CoreCompileInputs.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\obj\Debug\netcoreapp2.2\TestLrU.AssemblyInfoInputs.cache
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\obj\Debug\netcoreapp2.2\TestLrU.AssemblyInfo.cs
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\obj\Debug\netcoreapp2.2\TestLrU.csproj.CopyComplete
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\obj\Debug\netcoreapp2.2\TestLrU.dll
+C:\Users\akinn\Desktop\abiola_akinnubi_test\LeastRecentlyUsedWithCache\TestLrU\obj\Debug\netcoreapp2.2\TestLrU.pdb

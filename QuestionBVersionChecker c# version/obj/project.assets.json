@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "VersionChecker/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/VersionChecker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VersionChecker.dll": {}
+        }
       }
     }
   },
@@ -679,29 +689,35 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "VersionChecker/1.0.0": {
+      "type": "project",
+      "path": "../VersionChecker/VersionChecker.csproj",
+      "msbuildProject": "../VersionChecker/VersionChecker.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "VersionChecker >= 1.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\akinn\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker\\QuestionBVersionChecker.csproj",
+      "projectUniqueName": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker c# version\\QuestionBVersionChecker.csproj",
       "projectName": "QuestionBVersionChecker",
-      "projectPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker\\QuestionBVersionChecker.csproj",
+      "projectPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker c# version\\QuestionBVersionChecker.csproj",
       "packagesPath": "C:\\Users\\akinn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker\\obj\\",
+      "outputPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\QuestionBVersionChecker c# version\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
@@ -718,7 +734,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\VersionChecker\\VersionChecker.csproj": {
+              "projectPath": "C:\\Users\\akinn\\Desktop\\abiola_akinnubi_test\\VersionChecker\\VersionChecker.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
