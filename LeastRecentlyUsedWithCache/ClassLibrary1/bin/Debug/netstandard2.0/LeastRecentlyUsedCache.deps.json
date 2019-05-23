@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "cfe1dc2a80602aef150a12815387068463a61a0d"
+    "signature": "c6c8e9a8f99f1b3b67a26486d5d8ef0e8b8f3e29"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,12 +9,26 @@
     ".NETStandard,Version=v2.0/": {
       "LeastRecentlyUsedCache/1.0.0": {
         "dependencies": {
+          "ChilkatDnCore": "9.5.0.78",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "LeastRecentlyUsedCache.dll": {}
         }
       },
+      "ChilkatDnCore/9.5.0.78": {
+        "dependencies": {
+          "ChilkatNativeLib": "9.5.0.78",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.6/ChilkatDnCore.dll": {
+            "assemblyVersion": "9.5.0.78",
+            "fileVersion": "9.5.0.78"
+          }
+        }
+      },
+      "ChilkatNativeLib/9.5.0.78": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
@@ -28,6 +42,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "ChilkatDnCore/9.5.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oFN/bPnagICaj289l0toLNdN5HcDDfVUzbHjIIBw23WqSI3nMLUjrOyWbuZOTevn6jvd0W0IsXrxnM1VDF7YsA==",
+      "path": "chilkatdncore/9.5.0.78",
+      "hashPath": "chilkatdncore.9.5.0.78.nupkg.sha512"
+    },
+    "ChilkatNativeLib/9.5.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3J+o7mdcZpRnSpJULU3v2kkUs2+8ypdvVb/eLGCv7YjTaRdKIcyD0jPomBl2EvuXHaVDnkGZqRwZOkd2pyCAAg==",
+      "path": "chilkatnativelib/9.5.0.78",
+      "hashPath": "chilkatnativelib.9.5.0.78.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

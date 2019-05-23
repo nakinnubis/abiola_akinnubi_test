@@ -2,6 +2,40 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "ChilkatDnCore/9.5.0.78": {
+        "type": "package",
+        "dependencies": {
+          "ChilkatNativeLib": "9.5.0.78",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.6/ChilkatDnCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/ChilkatDnCore.dll": {}
+        }
+      },
+      "ChilkatNativeLib/9.5.0.78": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libchilkatDnCore-9_5_0.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libchilkatDnCore-9_5_0.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win7-x64/native/chilkatDnCore-9_5_0.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/chilkatDnCore-9_5_0.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -29,6 +63,34 @@
     }
   },
   "libraries": {
+    "ChilkatDnCore/9.5.0.78": {
+      "sha512": "oFN/bPnagICaj289l0toLNdN5HcDDfVUzbHjIIBw23WqSI3nMLUjrOyWbuZOTevn6jvd0W0IsXrxnM1VDF7YsA==",
+      "type": "package",
+      "path": "chilkatdncore/9.5.0.78",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "chilkatdncore.9.5.0.78.nupkg.sha512",
+        "chilkatdncore.nuspec",
+        "lib/netcoreapp1.0/ChilkatDnCore.dll",
+        "lib/netstandard1.6/ChilkatDnCore.dll"
+      ]
+    },
+    "ChilkatNativeLib/9.5.0.78": {
+      "sha512": "3J+o7mdcZpRnSpJULU3v2kkUs2+8ypdvVb/eLGCv7YjTaRdKIcyD0jPomBl2EvuXHaVDnkGZqRwZOkd2pyCAAg==",
+      "type": "package",
+      "path": "chilkatnativelib/9.5.0.78",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "chilkatnativelib.9.5.0.78.nupkg.sha512",
+        "chilkatnativelib.nuspec",
+        "runtimes/linux-x64/native/libchilkatDnCore-9_5_0.so",
+        "runtimes/osx-x64/native/libchilkatDnCore-9_5_0.dylib",
+        "runtimes/win7-x64/native/chilkatDnCore-9_5_0.dll",
+        "runtimes/win7-x86/native/chilkatDnCore-9_5_0.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -175,6 +237,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "ChilkatDnCore >= 9.5.0.78",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -222,6 +285,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "ChilkatDnCore": {
+            "target": "Package",
+            "version": "[9.5.0.78, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

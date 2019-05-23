@@ -43,6 +43,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "ChilkatDnCore": {
+              "target": "Package",
+              "version": "[9.5.0.78, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

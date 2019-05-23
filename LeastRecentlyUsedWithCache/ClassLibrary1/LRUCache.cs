@@ -3,7 +3,12 @@ using System.Collections.Generic;
 
 namespace LeastRecentlyUsedCache
 {
-   public class LRUCache
+    public class LatLong
+    {
+        public decimal Lat { get; set; }
+        public decimal Long { get; set; }
+    }
+    public class LRUCache
     {
 
         /*
@@ -13,10 +18,11 @@ namespace LeastRecentlyUsedCache
         */
         public class DNode
         {
-           public int key;
-          public  int value;
-           public DNode prev;
-           public DNode next;
+            public int key;
+            public int value;
+            public IEnumerable<LatLong> LatLongs { get; set; }
+            public DNode prev;
+            public DNode next;
         }
 
         private Dictionary<int, DNode> hashtable = new Dictionary<int, DNode>();
@@ -86,7 +92,7 @@ namespace LeastRecentlyUsedCache
                 newNode.value = value;
 
                 // Add to the hashtable and the doubly linked list
-                hashtable[key]= newNode;
+                hashtable[key] = newNode;
                 addNode(newNode);
 
                 // We just added an item to the cache

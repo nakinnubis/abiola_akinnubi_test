@@ -9,7 +9,9 @@ namespace TestLrU
         {
             var lrucache = new LRUCache(5);
             lrucache.put(1, 2);
-          //  lrucache.get(1);
+            //  lrucache.get(1);
+            //Chilkat.Rest rest = new Chilkat.Rest();
+            //Console.WriteLine(rest.Version);
             Console.WriteLine(lrucache.get(1));
         }
     }
