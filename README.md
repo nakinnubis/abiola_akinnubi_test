@@ -76,7 +76,7 @@ cd into QuestionBVersionChecker c# version folder
 25. if both matches the it returns 0
     Please to test the python version run checker.py which imports versionchecker.py you can change the test value
     Question C
-    At Ormuco, we want to optimize every bits of software we write. Your goal is to write a new library that can be integrated to the Ormuco stack. Dealing with network issues everyday, latency is our biggest problem. Thus, your challenge is to write a new Geo Distributed LRU (Least Recently Used) cache with time expiration. This library will be used extensively by many of our services so it needs to meet the following criteria:  
+    At Ormuco, we want to optimize every bits of software we write. Your goal is to write a new library that can be integrated to the Ormuco stack. Dealing with network issues everyday, latency is our biggest problem. Thus, your challenge is to write a new Geo Distributed LRU (Least Recently Used) cache with time expiration. This library will be used extensively by many of our services so it needs to meet the following criteria:
      1 - Simplicity. Integration needs to be dead simple.
     2 - Resilient to network failures or crashes.
     3 - Near real time replication of data across Geolocation. Writes need to be in real time.
@@ -88,3 +88,17 @@ cd into QuestionBVersionChecker c# version folder
     =======================
     SOLUTION C DOCUMENTATION
     =======================
+C# implementation
+cd into the directory called LeastRecentlyUsedWithCache
+the class library that is built for LRU cache is created already as a library called LeastRecentlyUsedCache
+a demo project is also created in c# called TestLrU
+this project called or reference the LeastRecentlyUsedCache library
+1. In the program.cs file of TestLrU if you call the constructor LRUCache(5) this set the maximum to 5
+2. LRUCache.Put(key,value)  Add an item to the cache if it is not already there,
+          if it is already there update the value and move it
+          to the front of the cache
+3.  LRUCache.removeLRUEntryFromStructure()   Remove the least used entry from the doubly linked,  list as well as the hashtable. Hence it is evicted
+
+4. LRUCache.cs file in the LeastRecentlyUsedCache class library project is self-explanator
+
+A lot left to be done and added python implementation features that uses browsers etc. a lot of work still to be added

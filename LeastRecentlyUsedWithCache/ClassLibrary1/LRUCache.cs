@@ -12,9 +12,7 @@ namespace LeastRecentlyUsedCache
     {
 
         /*
-          Our internal definition of a doubly linked list
-          node, put in this class for convenience since
-          this is submitted in one file on Leetcode
+         Implementation of lru cache using doubly linked list
         */
         public class DNode
         {
@@ -24,12 +22,16 @@ namespace LeastRecentlyUsedCache
             public DNode prev;
             public DNode next;
         }
-
+        //The dictionary data structure is used to mimick hastbale
         private Dictionary<int, DNode> hashtable = new Dictionary<int, DNode>();
         private DNode head, tail;
         private int totalItemsInCache;
         private int maxCapacity;
-
+        /// <summary>
+        /// Lru cache where you set the maximum capacity
+        /// it doesn't return anything but to set the maximum size of the cache
+        /// </summary>
+        /// <param name="maxCapacity"></param>
         public LRUCache(int maxCapacity)
         {
 
@@ -52,6 +54,7 @@ namespace LeastRecentlyUsedCache
 
         /*
           Retrieve an item from the cache
+          it also return the integer value of the cache
         */
         public int get(int key)
         {
@@ -95,7 +98,7 @@ namespace LeastRecentlyUsedCache
                 hashtable[key] = newNode;
                 addNode(newNode);
 
-                // We just added an item to the cache
+                //Just added an item to the cache
                 totalItemsInCache++;
 
                 // If over capacity evict an item with LRU cache eviction policy
